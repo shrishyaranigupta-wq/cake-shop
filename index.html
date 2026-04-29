@@ -1,1 +1,126 @@
-<ht>.........</ht>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet Bakery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff8f0;
+        }
+        header {
+            background: #d2691e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav {
+            background: #8b4513;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background: url('https://images.unsplash.com/photo-1541976076758-347942db197f') no-repeat center/cover;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .container {
+            padding: 20px;
+        }
+        .products {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        figure {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        figure img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        figcaption {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        footer {
+            background: #d2691e;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sweet Bakery</h1>
+    <p>Fresh & Delicious Cakes Everyday</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="hero">
+    Welcome to Our Bakery 🍰
+</div>
+
+<div class="container">
+    <h2 style="text-align:center;">Our Products</h2>
+    
+    <div class="products">
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1601972599720-36938d4ecd31" alt="Chocolate Cake">
+            <figcaption>Chocolate Cake - Rs. 500</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1505250469679-203ad9ced0cb" alt="Cupcakes">
+            <figcaption>Cupcakes - Rs. 300</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1542826438-bd32f43d626f" alt="Bread">
+            <figcaption>Fresh Bread - Rs. 150</figcaption>
+        </figure>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c" alt="Donuts">
+            <figcaption>Donuts - Rs. 250</figcaption>
+        </figure>
+
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Sweet Bakery | Made with ❤️</p>
+</footer>
+
+</body>
+</html>
